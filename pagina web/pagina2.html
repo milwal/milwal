@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"> 
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <nav class="navbar navbar-expand-lg navbar-bark" style="background-color: black;">
+          <div align="center" class="contenedor"><img src="3.png" width="100" height="70" class="imagen" style="border-radius: 20px;"></div>
+          <a style="margin-left: 2%; color: blanchedalmond;" class="navbar-brand" href="index.html">INICIO</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-link active" href="pagina2.html" style="color: blanchedalmond;">UNIDAD <span class="sr-only">(current)</span></a>
+              </div>
+            </div>
+            <div class="contenedor"><img src="6.png" width="110" height="70" class="imagen" style="border-radius: 20px;" align="right"></div>
+          </nav>
+          <img class="gif7" src="7.gif" width="300" height="500" style="border-radius: 30px;">
+        </div>
+        <br>
+        <div>
+        <div class="texto">
+            <h1 align="center"> CONCEPTOS BASICOS DE JAVA </h1>
+            <br>
+         <div class="lead">
+            <p> 
+                Si estás empezando con el lenguaje Java hay una serie de conceptos básicos Java 
+                de la orientación a objetos que debes de manejar para poder desarrollar con este lenguaje.
+
+                Aquí los vamos a ver por encima y dedicaremos un capítulo entero a ellos entrando en detalle 
+                sobre todas sus características
+                <br>
+                <div align="center" class="contenedor"><img src="4.jpg" width="500" height="120" style="border-radius: 10px;" class="imagen"></div>
+                <br>    
+                    <ul>
+                        <li>Objeto</li>
+                        <li>Clase</li>      
+                        <li>Paquete</li>
+                        <li>Interface</li>
+                        <li>Herencia</li>
+                    </ul>
+            </p>
+            <br>
+            <h4 align="center">OBJETO</h4>
+            <br>
+            <p>
+                Es un elemento de software que intenta representar un objeto del mundo real. De esta forma un objeto tendrá sus propiedades y acciones a realizar con el objeto. Estas propiedades y acciones están encapsuladas dentro del objeto, cumpliendo así los principios de encapsulamiento.
+                El paradigma de la orientación a objetos aparece como contraste a la programación estructurada que se venía utilizando desde los años 60.
+                Un objeto tiene su estado (o estados) y su comportamiento. Esto se modela mediante propiedades (o variables) y métodos. Incluso un objeto puede contener a su vez a otro tipo de objeto.
+            </p>
+            <br>
+          <h4 align="center"> ENCAPSULACIÓN</h4>
+          <br>
+          <p>
+            Las interacciones con los objetos se hacen mediante los métodos. Es decir, si queremos conocer información del estado del objeto deberemos de llamar a uno de sus métodos y no directamente a las propiedades.
+            Esta encapsulación nos permitiría el cambiar las propiedades del objeto sin que los consumidores se vean afectados siempre y cuando les sigamos retornando el mismo resultado.
+            Si bien hay objetos que tienen propiedades públicas, por lo cual podremos acceder directamente a dichas propiedades sin necesidad de utilizar un método.
+
+            El uso de objetos nos proporciona los siguientes beneficios:
+                <ol class="lead">
+                    <li><strong>Modularidad,</strong> el objeto y sus propiedades puede ser pasado por diferentes estructuras 
+                        del código fuente, pero el objeto es el mismo.</li>
+                    <li><strong>Encapsular Datos,</strong> ocultamos la implementación de propiedades del objeto ya que accederemos 
+                        a través de los métodos del objeto.</li>   
+                    <li><strong>Reutilización de Código,</strong> podemos tener diferentes instancias de un objeto de tal manera que 
+                        esas diferentes instancias están compartiendo el mismo código.</li>  
+                    <li><strong>Reemplazo,</strong> podemos reemplazar un objeto por otro siempre y cuando estos objetos tengan el mismo comportamiento.</li>       
+                </ol>
+                <br>
+          </p>
+          <h4 align="center">CLASE</h4>
+          <br>
+          <p class="lead">
+            Las clases representan los prototipos de los objetos que tenemos en el mundo real. Es decir, es una generalización de un conjunto de objetos. A su vez los objetos serán instancias de una determinada clase.
+            Si volvemos al ejemplo del televisor, existen múltiples tipos de televisores y cada uno con sus características. Si bien existe un esquema o prototipo que define el televisor. Este prototipo es lo que conocemos la clase.
+            En la clase es dónde realmente definimos las propiedades y métodos que podrán contener cada una de las instancias de los objetos.
+          </p>
+          <br>
+          <h4 align="center">PAQUETE</h4>
+          <br>
+          <p class="lead">
+            Un paquete es una forma de organizar elementos de software mediante un espacio de nombres. Así podremos afrontar desarrollos grandes de software facilitando la forma de encontrar o referirnos a un elemento.
+            Podríamos entender el sistema de paquetes como si fuese un sistema de carpetas. De tal manera que colocaremos cada una de las clases (o ficheros) en un paquete (o directorio).
+            Los paquetes se definen mediante el modficiador package seguido del nombre del paquete. El paquete lo definiremos en la primera línea de cada una de las clases.
+          </p>
+          <br>
+          <h4 align="center">HERENCIA</h4>
+          <br>
+          <p class="lead">
+            La herencia es una forma de estructurar el software. Mediante la herencia podemos indicar que una clase hereda de otra. Es decir la clase extiende las capacidades (propiedades y métodos) que tenga y añade nuevas propiedades y acciones.
+            Digamos que las nuevas clases especializan más aquellas clases de las que heredan al añadir nueva funcionalidad. Aunque también pueden reescribir el funcionamiento de dichos elementos.
+          </p>
+            <br>
+        </div>
+      </div>
+      <div class="texto">
+        <h1 align="center"> INSTALACIÓN DE REACT </h1>
+        <br>
+        <div align="center" class="contenedor"><img src="5.png" width="500" height="200" style="border-radius: 10px;" class="imagen" ></div>
+        <p class="lead">
+          <strong>Paso 1.</strong>  Instalar NodeJS en su ultima versión,
+          para eso entraremos a su web oficial y descargaremos el instalador más actualizado. 
+          <br>
+          <a href="https://nodejs.org/es/">link para instalar REACT</a>
+          <p class="lead">
+            <strong>Paso 2.</strong> Actualizar NPM, el gestor de paquetes de node, para bajarnos las dependencias más actuales:
+              <br>
+              <p align="center" class="lead"><em> <strong>npm install -g npm@latest</strong> </em></p> 
+          </p>
+          <p class="lead">
+            <strong>Paso 3.</strong> Borrar la cache de NPM:
+            <br>
+            <p align="center" class="lead"><em> <strong>npm cache clean --force</strong> </em></p> 
+          </p>
+          <p class="lead">
+            <strong>Paso 4.</strong> Instalar Create React App, que es un interprete de consola(CLI)
+             que nos va a permitir instalar React facilmente e incluirá webpack para 
+             la compilación y minificación del proyecto, un live reload, una estructura 
+             básica para los proyectos de ReactJS, etc, veamos como instalar este paquete:
+             <br>
+             <p align="center" class="lead"><em> <strong>npm install -g create-react-app</strong> </em> </p>
+          </p>
+          <p class="lead">
+            <strong>Paso 5.</strong> Ahora ya tenemos instalado «create react app» y ya podemos generar un nuevo proyecto de React.js
+            Para generar un nuevo proyecto de React.js y finalmente instalarlo, entraremos al directorio donde
+            queramos generar el proyecto de reactjs y ejecutamos este comando:
+            <br>
+            <p align="center" class="lead"><em> <strong>create-react-app NombreDeMiProyecto</strong> </em></p>
+          </p>
+          <p class="lead">
+            Ahora entraremos al directorio de nuestro proyecto y 
+            lanzaremos el servidor local de pruebas para React:
+            <br>
+            <p align="center" class="lead"><em> <strong>cd NombreDeMiProyecto 
+              <br> npm start</strong> </em></p>
+          </p>
+          <p class="lead">
+            Puedes comprobar la versión de React que tienes dentro del fichero package.json.
+            Ahora tendremos disponible la webapp de React 16 en <strong>http://localhost:3000/</strong>
+            y veremos nuestro proyecto corriendo, con la página de bienvenida por defecto.
+            Con esto ya sabemos como instalar React desde cero y como generar un proyecto base.
+          </p>
+        </p>
+        <br>
+        <h2 align="center"> PROS Y CONTRAS DE REACT</h2>
+        <p class="lead">
+          <h5><STRong>PROS:</STRong></h5>
+          <br>
+            <ol class="lead">
+                <li>React.JS es altamente eficiente al usar Virtual DOM en sus componentes.</li>
+                <li>Gran cantidad de plugins o librerías que agregan funcionalidades a React.</li>
+                <li>Alta demanda laboral.</li>
+                <li>Gran comunidad de desarrolladores.</li>
+                <li>Posibilidad de hacer aplicaciones mobile con React Native.</li>
+                <li>Respaldo tecnológico por parte de un gigante de la industria Facebook.</li>
+                <li>La composición de componentes lo hace fácil de mantener y reutilizar.</li>
+                <li>JSX facilita la lectura de código de los componentes.</li>
+                <li>Lo podemos conectar con cualquier framework Back End.</li>
+                <li>Desarrollo declarativo y menos imperativo.</li>
+                <li>DOM virtual mejora experiencia de usuario.</li>
+           </ol>
+           <br>
+           <p class="lead">
+             <h5><strong>CONTRAS:</strong></h5>
+           </p>
+           <br>
+           <ol class="lead">
+             <li>Curva de aprendizaje puede ser algo pronunciada.</li>
+             <li>No es un framework todo en uno como Angular,
+               se requieren librerías externas para realizar una aplicación más completa.</li>
+            <li>Debido al rápido crecimiento, la documentación de integración con otras 
+                herramientas puede ser algo escasa.</li> 
+           </ol>
+           <br>
+           <p class="lead">
+            Algunas de las grandes marcas que utilizan React son:
+           </p>
+           <br>
+           <ul class="lead">
+             <li>Facebook</li>
+             <li>Instagram</li>
+             <li>Sony</li>
+             <li>Yahoo</li>
+             <li>Netflix</li>
+             <li>Feedly</li>
+             <li>Airbnb</li>
+           </ul>
+        </p>
+        <br>
+      </div>
+      <br>
+    </body>
+</html>
+<style>
+  .texto{
+      color: black;
+      margin:5%;
+      text-align: start ;
+      width:60%;
+      background-color: rgb(180, 180, 180);
+  }
+  body{
+      background-color: rgb(133, 139, 145);
+    }
+    .imagen:hover {filter: saturate(90%);}
+    .contenedor:hover .imagen {-webkit-transform:scale(1.3);transform:scale(1.3);}
+    .contenedor {overflow:hidden;} 
+    .gif7 {
+      float: right;
+    }
+</style>
